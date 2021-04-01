@@ -1,5 +1,5 @@
 ---
-title: "How to join an Ubuntu machine to Active Directory"
+title: "How to join an Ubuntu 20.04 machine to Active Directory"
 categories:
   - Tutorials
 tags:
@@ -9,7 +9,7 @@ toc: true
 toc_label: "Table of Contents"
 ---
 
-In this tutorial, we will be performing the steps to bind an Ubuntu device to an Active Directory domain using realmd.
+In this tutorial, we will be performing the steps to bind an Ubuntu 20.04 device to an Active Directory domain using realmd. These steps have also been tested to work with Ubuntu 18.04.
 {: .notice}
 
 ## Step 1: Perform updates
