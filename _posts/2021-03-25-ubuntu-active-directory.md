@@ -4,7 +4,7 @@ categories:
   - Tutorials
 tags:
   - ubuntu
-  - active-directory
+  - active directory
 toc: true
 toc_label: "Table of Contents"
 ---

@@ -1,11 +1,11 @@
 ---
-title: "How to pre-create an Active Directory mobile account on macOS in advance"
+title: "How to cache an Active Directory mobile account on macOS before deployment"
 categories:
   - Tutorials
 tags:
   - macOS
   - mobile account
-  - active-directory
+  - active directory
 toc: true
 toc_label: "Table of Contents"
 ---
@@ -25,10 +25,10 @@ sudo /System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmob
 {: .notice--warning}
 
 ## Step 3: Follow the prompts
-The command will ask to enter an administator password. After doing so, it will then prompt for a SecureToken account. If your device has FileVault enabled, enter the administrator's credentials. If not, you can skip this step by hitting Enter/Return.
+The command will ask to enter an administator password. After doing so, it will then prompt for a SecureToken account. If your device has FileVault enabled, enter an administrator's credentials. If not, you can skip this step by hitting Enter/Return.
 
 ## Step 4: Finish up
-Once the command has finished, you will see a list of the user's information. This means that the account was successfully created. With this, the user's home directory has also been created and can be altered. The user can also be made an administrator, all without logging in! 
+Once the command has finished, you will see a list of user information. This means that the account was successfully created. With this, the user's home directory has also been created and can be altered. The user can also be made an administrator, all without logging in! 
 
 *Note:* If you do not see the user's information, then the command failed. Refer to the troubleshooting section below.
 {: .notice--warning}
