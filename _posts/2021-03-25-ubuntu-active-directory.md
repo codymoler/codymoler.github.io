@@ -31,7 +31,7 @@ nano /etc/krb5.conf
 This configuration provides some default options. Modify the domain name to match your Active Directory configuration.
 ```
 [libdefaults]
-MYDOMAIN.NET
+default_domain = MYDOMAIN.NET
 rdns = false
 ```
 *Note:* Make sure to enter your domain name in ALL CAPS.
